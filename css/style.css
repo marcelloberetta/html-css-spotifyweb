@@ -4,14 +4,11 @@ body{
    padding: 0;
  }
 
- .box{
-   background-color : firebrick;
-}
 
 
 /* COMMONS */
 
-.clearfix{
+.clearfix::after{
    display: table;
    content: "";
    clear: both;
@@ -33,10 +30,15 @@ aside{
 /* MAIN */
 
 main{
-   width: calc(100vw - 250px);
+   width: calc(100% - 250px);
    height: 95vh;
    background-color: #141922;
+}
 
+.bar{
+   width: 100% - 250px;
+   height: 8vh;
+   background-color: #080b12;
 }
 
 
