@@ -6,8 +6,9 @@ body{
  }
 
 
-
+/*  */
 /* COMMONS */
+/*  */
 
 .clearfix::after{
    display: table;
@@ -25,10 +26,15 @@ body{
  }
 
 
+
  .whiteText{
     color: white;
  }
+
+
+ /*  */
 /* ASIDE */
+/*  */
 
 aside{
    width: 250px;
@@ -43,14 +49,25 @@ aside{
    align-items: center;
 }
 
-.logoimage{
+.logoImage{
    width: 150px;
    height: auto;
    margin-left: 20px;
 }
 
+.getSong{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   height: 10vh;
+   background-color: blue;
 
+}
+
+/*  */
 /* MAIN */
+/*  */
 
 main{
    width: calc(100% - 250px);
@@ -72,8 +89,8 @@ main{
    border: 1px solid white;
    padding:15px 25px 15px 25px;
    border-radius: 20px;
-   
-   
+   background-color: transparent;
+      
 }
 
 
