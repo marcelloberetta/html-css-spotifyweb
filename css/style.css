@@ -41,7 +41,7 @@ body{
 
 aside{
    width: 250px;
-   height: 95vh;
+   height: 100vh;
    background-color: black;
 }
 
@@ -74,7 +74,7 @@ aside{
 
 main{
    width: calc(100% - 250px);
-   height: 95vh;
+   height: 100vh;
    background-color: #141922;
 }
 
@@ -123,10 +123,38 @@ main{
 
 
 
+/*  */
+/* FOOTER */
+/*  */
+
+footer{
+   width: 100%;
+   height: 9vh;
+   background-color: #282828;
+   position: absolute;
+   z-index: 2;
+   top: 91vh;
+   display: flex;
+}
 
 
+.toogleLeft{
+   height: 9vh;
+   width: 25%;
+   background-color: mediumspringgreen;
+}
 
+.toogleCenter{
+   height: 9vh;
+   width: 50%;
+   background-color:olive;
+}
 
+.toogleRight{
+   height: 9vh;
+   width: 25%;
+   background-color: orangered;
+}
 
 
 
