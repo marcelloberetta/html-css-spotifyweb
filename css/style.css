@@ -141,8 +141,6 @@ footer{
 .toogleLeft{
    height: 9vh;
    width: 250px;
-   
-   background-color: mediumspringgreen;
    display: flex;
    align-items: center;
 }
@@ -163,14 +161,53 @@ footer{
 .cover, .quickToogle{
    height: 9vh;
    width: 25%;
-   background-color: cornflowerblue;
+   
+   
 }
 
 
 .songDetails{
    height: 9vh;
    width: 50%;
-   background-color: darkgoldenrod;
+   
+}
+
+.cover{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.coverImage{
+   width: 75%;
+   height: 55%;
+   object-fit: contain;
+     
+}
+
+.songDetails{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: 10px;
+   font-weight: bold;
+   padding: 8px;
+}
+
+
+
+.quickToogle{
+   display: flex;
+   
+}
+
+.like, .folder{
+   width: 50%;
+   height: 9vh;
+   display: flex;
+   align-items: center;
+
 }
 
 
