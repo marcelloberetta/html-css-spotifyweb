@@ -148,7 +148,10 @@ footer{
 .toogleCenter{
    height: 9vh;
    width: calc(100% - 500px);
-   background-color:olive;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
 }
 
 .toogleRight{
@@ -161,8 +164,7 @@ footer{
 .cover, .quickToogle{
    height: 9vh;
    width: 25%;
-   
-   
+  
 }
 
 
@@ -210,4 +212,15 @@ footer{
 
 }
 
+.buttons{
+   width: 50%;
+   height: calc(9vh / 2);
+   background-color: cornflowerblue;
 
+}
+
+.progress{
+   width: 70%;
+   height: calc(9vh / 2);
+   background-color: greenyellow;
+}
