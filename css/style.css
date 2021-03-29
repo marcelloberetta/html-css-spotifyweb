@@ -157,7 +157,10 @@ footer{
 .toogleRight{
    height: 9vh;
    width: 250px;
-   background-color: orangered;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 
@@ -213,14 +216,51 @@ footer{
 }
 
 .buttons{
-   width: 50%;
+   width: 20%;
    height: calc(9vh / 2);
-   background-color: cornflowerblue;
-
+   
+   display: flex;
+   
 }
 
 .progress{
-   width: 70%;
+   width: 60%;
    height: calc(9vh / 2);
    background-color: greenyellow;
 }
+
+.volume{
+
+width: 100%;
+height: calc(9vh / 2);
+background-color: hotpink;
+}
+
+
+.shuffle, .back, .forward, .repeat{
+   width: 19%;
+   height: 100%;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+
+.play{
+   width: 24%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.playIcon{
+   transform: scale(1.5);
+}
+
+
