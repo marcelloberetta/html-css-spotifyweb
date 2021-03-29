@@ -140,22 +140,37 @@ footer{
 
 .toogleLeft{
    height: 9vh;
-   width: 25%;
+   width: 250px;
+   
    background-color: mediumspringgreen;
+   display: flex;
+   align-items: center;
 }
 
 .toogleCenter{
    height: 9vh;
-   width: 50%;
+   width: calc(100% - 500px);
    background-color:olive;
 }
 
 .toogleRight{
    height: 9vh;
-   width: 25%;
+   width: 250px;
    background-color: orangered;
 }
 
 
+.cover, .quickToogle{
+   height: 9vh;
+   width: 25%;
+   background-color: cornflowerblue;
+}
+
+
+.songDetails{
+   height: 9vh;
+   width: 50%;
+   background-color: darkgoldenrod;
+}
 
 
