@@ -31,6 +31,9 @@ body{
     color: white;
  }
 
+ .greyText{
+    color: #7d7e83;
+ }
 
  /*  */
 /* ASIDE */
@@ -97,7 +100,7 @@ main{
 .downbarContainer{
    width: 100%;
    height: 8vh;
-   background-color: burlywood;
+   
  
 }
 
@@ -106,13 +109,17 @@ main{
    width: 60%;
    height: 8vh;
    margin: auto;
-   background-color: firebrick;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   font-size: 12px;
+   font-weight: 400;
 }
 
-
+.select > div:hover{
+   border-bottom: 2px solid lime; /* DA RIVEDERE */
+   
+}
 
 
 
